@@ -321,7 +321,42 @@ html {
 
 /* SPEAKERS */
 
+.bio-container {
+    margin-bottom: 50px;
+}
 
+.inner-header {
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 50px;
+    clear: both;
+    font-weight: normal;
+}
+
+.bio-photo {
+    float: left;
+    /* position: relative; */
+    width: 50%;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.bio-name {
+    /* float: right; */
+    display: inline-block;
+    margin-left: 50px;
+    color: #E2404C;
+    font-size: 40px;
+}
+
+.bio-description {
+    display: inline-block;
+    margin-left: 50px;
+    color: #FFF;
+    font-size: 20px;
+}
 
 /* SCHEDULE */
 
