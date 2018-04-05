@@ -321,8 +321,17 @@ html {
 
 /* SPEAKERS */
 
-.bio-container {
-    margin-bottom: 50px;
+.speakersOuter {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+}
+
+.speakersInner {
+    padding-top: 68px;
+    width: 50%;
+    margin: auto;
+    /* padding-bottom: 68px; */
 }
 
 .inner-header {
@@ -334,13 +343,33 @@ html {
     font-weight: normal;
 }
 
+.bio-container {
+    margin-bottom: 100px;
+    clear: both;
+}
+
+.bio-photo-container {
+    height: 300px;
+    width: 30%;
+    display: inline-block;
+}
+
 .bio-photo {
     float: left;
-    /* position: relative; */
-    width: 50%;
+    position: relative;
+    /* width: 300px; */
+    width: 100%;
     margin-bottom: 20px;
     display: inline-block;
     border-radius: 100%;
+    border: 10px solid #E2404C;
+}
+
+.bio-text {
+    vertical-align: top;
+    width: 60%;
+    display: inline-block;
+    line-height: 30px;
 }
 
 .bio-name {
@@ -349,6 +378,7 @@ html {
     margin-left: 50px;
     color: #E2404C;
     font-size: 40px;
+    line-height: 40px;
 }
 
 .bio-description {
@@ -581,6 +611,12 @@ html {
         font-size: 16px;
         line-height: 20px;
     }
+
+    /* SPEAKERS */
+
+    .speakersInner {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 1070px) {
@@ -599,6 +635,12 @@ html {
 
     .logistics {
         margin-left: 0px;
+    }
+
+    /* SPEAKERS */
+
+    .speakersInner {
+        width: 90%;
     }
 }
 
@@ -654,5 +696,11 @@ html {
         width: 90%;
         margin: auto;
         padding-bottom: 68px;
+    }
+
+    /* SPEAKERS */
+
+    .speakersInner {
+        width: 90%;
     }
 }
