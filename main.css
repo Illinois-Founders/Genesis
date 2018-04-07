@@ -382,10 +382,11 @@ html {
 }
 
 .bio-description {
-    display: inline-block;
+    display: block;
     margin-left: 50px;
     color: #FFF;
     font-size: 20px;
+    clear: both;
 }
 
 /* SCHEDULE */
